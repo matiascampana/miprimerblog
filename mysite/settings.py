@@ -40,7 +40,7 @@ INSTALLED_APPS = (
     'blog',
 )
 
-MIDDLEWARE = (
+MIDDLEWARE_CLASS = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
