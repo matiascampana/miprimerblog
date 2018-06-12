@@ -6,7 +6,7 @@ urlpatterns = [
     #url(r'^$', 'mysite.views.home', name='home'),
 
 
-    url(r'^admin/', include(admin.site.urls, namespace='admin')),
+    url(r'^admin/', include(admin.site.urls, name='admin')),
     #url(r'^blog/', blog.urls, name='blog'),
 
 ]
